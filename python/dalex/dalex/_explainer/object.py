@@ -810,6 +810,9 @@ class Explainer:
             metric score for subgroup i.
         label : str
             label taken from Explainer. When plotting labels must be unique.
+        cutoff : dict
+            Value for each subgroup (key in dict)
+        and other
 
         """
 
